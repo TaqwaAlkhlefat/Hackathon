@@ -1,0 +1,39 @@
+body {
+    font-family: cursive;
+    background-color: rgba(248,249,215,255);
+    height: 650px;
+}
+#box1:hover{opacity: 0.5;content: hello; }
+#box2:hover{opacity: 0.5; }
+#box3:hover{opacity: 0.5; }
+#box4:hover{opacity: 0.5; }
+#box5:hover{opacity: 0.5; }
+#box6:hover{opacity: 0.5; }
+
+#boxs-6 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;  
+    gap: 40px; 
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.box-6 {
+    background-color: rgba(196,215,224,255);
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    padding: 10px;
+    padding-top: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(110,133,183,255);
+}
+
+img {
+    height: 60px;
+    width: 60px;
+}
